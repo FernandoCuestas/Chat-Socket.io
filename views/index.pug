@@ -1,0 +1,42 @@
+doctype html
+head
+  title Real Time Chat
+  link(rel="stylesheet", href="/components/bootstrap/dist/css/bootstrap.css")
+  link(rel="stylesheet", href="/css/style.css")
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+  script(src="/components/bootstrap/dist/js/bootstrap.js")
+  script(src="/js/main.js")
+  script(src="/socket.io/socket.io.js")
+body
+  nav.navbar.navbar-inverse
+    .container
+      .nav-wrapper.blue.lighten-1
+        a.brand-logo(href="/") ChatApp
+  .container
+    .row
+      .col-md-8
+        #error
+        #userFormWrap
+          h1 Crear Usuario
+          form#userForm
+            input#username.form-control(type="text", placeholder="Ingrese nombre.")
+            br
+            button.btn.btn-default.blue.lighten-1.pulse(type="submit") Enviar
+        #mainWrap
+          h1 
+          form#chatForm
+            .form-group
+              h2 Escribir
+              textarea#chatInput.materialize-textarea.form-control(name="body", placeholder="Escribi algo")
+              br
+              button.btn.btn-default.blue.lighten-1.pulse(type="submit") Enviar
+                
+              br
+              br
+            #chatWindow.card-panel
+      .col-md-4
+        h3 Chat de usuarios
+          #users
+        ul.list-group

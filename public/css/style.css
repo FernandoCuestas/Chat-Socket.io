@@ -1,0 +1,20 @@
+#mainWrap {
+  display: none
+}
+div#users {
+  margin-top:14px;
+}
+
+div#users li.list-group-item {
+  font-size: 0.5em;
+}
+
+input#username:focus {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
+}
+
+textarea#chatInput:focus {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
+}
