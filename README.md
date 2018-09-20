@@ -1,4 +1,4 @@
-# In order to run the app, install the dependencies first with...
+# Install the dependencies
 
  ```sh
  npm install
@@ -14,5 +14,5 @@ nodemon
 
 # View
  ```sh
- [https://app-socketio.herokuapp.com/]
+ [https://app-socketio.herokuapp.com/]: <https://app-socketio.herokuapp.com/>
  ```
