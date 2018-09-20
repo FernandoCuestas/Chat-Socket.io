@@ -14,5 +14,5 @@ nodemon
 
 # View
  ```sh
- [https://app-socketio.herokuapp.com/]:(https://app-socketio.herokuapp.com/)
+ [https://app-socketio.herokuapp.com/](https://app-socketio.herokuapp.com/)
  ```
