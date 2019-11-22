@@ -12,7 +12,5 @@
 # OR if you have nodemon installed (npm install -g nodemon)
 nodemon
 
-# View
 
-[https://app-socketio.herokuapp.com/](https://app-socketio.herokuapp.com/)
 
